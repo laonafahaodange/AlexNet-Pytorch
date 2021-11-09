@@ -458,7 +458,8 @@ if __name__ == '__main__':
 ![re3](predict_result/rose.png)
 ![re4](predict_result/sunflower.png)
 ![re5](predict_result/tulip.png)
-测试图片是从网上随便找的（不排除数据集里面可能已经出现过了）
+
+测试图片是从网上随便找的（不排除数据集里面可能已经出现过了）  
 daisy、dandelion、sunflower预测正确，但rose和tulip预测错了
 ## 问题
 在kaggle平台上使用GPU训练平均43s/epoch，自己的1050ti直接在batchsize=128的情况下cuda out of memory了,而且训练的时候发现使用sgd时验证集准确率卡在24%上不去。
